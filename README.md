@@ -45,9 +45,10 @@ page that contains information of multiple team members.
 
 
 ## Features
-- Node.js 
-- Inquirer.js
 - Javascript 
+- Node.js 
+    - Inquirer.js
+
 
 
 ## Installation
