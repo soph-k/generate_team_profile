@@ -1,0 +1,28 @@
+{
+  "name": "generate_team_profile",
+  "version": "1.0.0",
+  "description": "![license](https://img.shields.io/badge/license-MIT-red)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soph-k/generate_team_profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soph-k/generate_team_profile/issues"
+  },
+  "homepage": "https://github.com/soph-k/generate_team_profile#readme"
+}
