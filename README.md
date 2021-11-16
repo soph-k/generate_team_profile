@@ -18,7 +18,8 @@
 
 # Description
 A simple script based on node.js using the inquirer - npm to generate 
-page that contains information of multiple team members.
+an HTML page that contains information of multiple team members. 
+Jest testing was used to anaylzed the functionality of the script.
 
 
 ## Table of Contents
@@ -48,6 +49,7 @@ page that contains information of multiple team members.
 - Javascript 
 - Node.js 
     - Inquirer.js
+    - Jest Testing
 
 
 

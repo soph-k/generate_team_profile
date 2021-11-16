@@ -155,10 +155,18 @@ addMembers = () => {
       }
       // create the HTML page
       else {
-        generateHTML(teamMembers); 
+        createHTML ();
       }
   })
 }
+
+// Creates an index.html file
+createHTML = () => {
+  fs.writeFile('./dist/index.html', generateHTML(teamMembers), err => {
+    err ? console.log("error") : console.log("Generated index.html");
+  })
+};
+
 
 ///////////////////////// Start /////////////////////////
 // Starts the first question
