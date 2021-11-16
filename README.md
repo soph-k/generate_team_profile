@@ -43,6 +43,7 @@ Jest testing was used to anaylzed the functionality of the script.
 
 ## Preview
 [ScreenCastify](https://watch.screencastify.com/v/MysIdngSIkuCcDRzN6jh)
+
 ![Preview](./dist/assets/images/demo.gif)
 
 
