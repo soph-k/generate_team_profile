@@ -1,0 +1,199 @@
+/********************************************************************************
+CSS TABLE OF CONTENTS
+===== Base ====
+    |-- 1.0 - Reset
+    |-- 2.0 - Gobal
+    |-- 3.0 - Navbar
+    |-- 4.0 - About
+    |-- 5.0 - Project
+    |-- 6.0 - Footer
+    |-- 7.0 - Responsive
+********************************************************************************/
+
+/********************************** 1.0 - Reset ********************************/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/***************************** 2.0 - Global ******************************/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*,
+*:before,
+*:after {
+  font-weight: 100;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  color: rgb(0, 0, 0);
+  background: #f9fafa;
+  letter-spacing: 1.4px;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#000000; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+
+/****************************** 3.0 - Scroll **************************/
+::-webkit-scrollbar {
+  width: .6em;
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ea1d6f;
+  border: 3px none #ffffff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #525965;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: transparent;
+}
+::-webkit-scrollbar-track:active {
+  background: transparent;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+
+/****************************** 4.0 - Header **************************/
+.header-section { 
+  background-image:linear-gradient(to top, rgb(255, 255, 255) , rgb(95, 110, 114));
+  border-right: rgb(28, 32, 32) .15em solid;
+  border-left: rgb(21, 26, 25) .15em solid;
+  border-bottom: rgb(24, 34, 33) .10em solid;
+  top: 0;
+  height: 3em;
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  box-shadow:20px 20px 50px grey;  
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 300;
+}
+
+
+/****************************** 5.0 - Cards **************************/
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 1em;
+}
+
+.card {
+  width: 25%;
+  margin: 1em;
+  border-radius: 15px;
+  background-image:linear-gradient(to top, rgb(255, 255, 255) , rgb(95, 110, 114));
+  border: 1px solid #000000;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 2rem;
+  height: 20em;
+}
+
+.card-header {
+  background-image:linear-gradient(to top, rgb(255, 255, 255) , rgb(95, 110, 114));
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.card-text {
+  font-size: .8em;
+}
+
+
+.list-group-item {
+  color: black;
+  font-size: 1.2em;
+  border-top: 1px solid #31818b;
+}
+
+
+
+  
