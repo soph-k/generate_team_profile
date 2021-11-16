@@ -42,7 +42,8 @@ Jest testing was used to anaylzed the functionality of the script.
 
 
 ## Preview
-![Preview](./assets/images/demo.gif)
+[ScreenCastify](https://watch.screencastify.com/v/MysIdngSIkuCcDRzN6jh)
+![Preview](./dist/assets/images/demo.gif)
 
 
 ## Features
@@ -57,12 +58,8 @@ Jest testing was used to anaylzed the functionality of the script.
 The Generate Team Profile is based on the Inquirer npm. 
 Before using commands please be sure Inquirer npm is installed. 
 If not, run the following commands in the following order: 
-
 ```
 npm init
-```
-```
-npm install inquirer
 ```
 
 
@@ -78,6 +75,10 @@ node index.js
 
 ## Test
 Each aspect of the Generate Team Profile project was tested using Jest. 
+Feel free to test this project yourself.
+```
+npm test
+```
 
 
 ## Contribution
@@ -88,13 +89,9 @@ Contributions are accepted. Feel free to fork without permission.
 This project is under the MIT license.
 
 
-###
+### Questions
 For questions about this project, please review my GitHub repo at [soph-k](https://github.com/soph-k) or contact me on Github.
 
 
 #### Bugs 
 - No known bugs.
-
-
--- html/css
-
