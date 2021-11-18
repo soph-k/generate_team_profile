@@ -62,7 +62,7 @@ npm init
 
 ## Usage
 Once all of the files and Inquirer npm is set up, 
-begin generating your README.md file by using the following 
+begin generating your index.html file by using the following 
 command in the terminal of your project and answer each question.
 
 ```
