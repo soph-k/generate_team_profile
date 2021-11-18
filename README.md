@@ -1,7 +1,6 @@
 # Generate Team Profile 
 
-![license](https://img.shields.io/badge/license-MIT-red)
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/soph-k/generate_team_profile"/>
@@ -56,8 +55,7 @@ Jest testing was used to anaylzed the functionality of the script.
 
 
 ## Installation
-The Generate Team Profile is based on the Inquirer npm. 
-Before using commands please be sure Inquirer npm is installed. 
+Before using commands please be sure NodeJS packages are installed. 
 If not, run the following commands in the following order: 
 ```
 npm init
