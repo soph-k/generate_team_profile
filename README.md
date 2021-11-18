@@ -30,8 +30,6 @@ Jest testing was used to anaylzed the functionality of the script.
 - [Usage](#usage)
 - [Test](#test)
 - [Contribution](#contribution)
-- [License](#license)
-- [Bugs](#bugs)
 
 
 ## Authors
